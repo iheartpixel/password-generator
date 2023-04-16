@@ -13,18 +13,18 @@
 </head>
 <body>
     <div class="container">
-        <h1>Generate a <span>random password</span></h1>
+        <h1>Generate a <br><span>random password</span></h1>
         <h2>Never use an insecure password again.</h2>
         <div class="flexbox-wrapper">
         <button id="generator-btn" onclick="renderPasswords()">Generate passwords</button>
         </div>
         <hr></hr>
         <div class="flexbox-wrapper">
-            <div>
+            <div class="outputs-display">
                 <div id="first-output" class="output-block"></div>
                 <button id="first-copy-btn" class="copy-btn" onclick="copyLeftPassword()">Copy</button>
             </div>
-            <div>
+            <div class="outputs-display">
                 <div id="second-output" class="output-block"></div>
                 <button id="second-copy-btn" class="copy-btn" onclick="copyRightPassword()">Copy</button>
             </div>
