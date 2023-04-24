@@ -2,6 +2,7 @@ body {
     margin: 0;
     background: #1C1C1C;
     color: #F3F4F6;
+    font-family: 'Inter', sans-serif;
 }
 
 .container {
@@ -9,7 +10,7 @@ body {
     width: 450px;
     padding: 115px 52px;
     margin: 100px auto;
-    border-radius: 6px; 
+    border-radius: 6px;
 }
 
 span {
@@ -23,7 +24,6 @@ h1 {
 }
 
 h2 {
-    font-family: 'Inter', sans-serif;
     color: #D5D4D8;
     font-size: 20px;
     font-weight: 400;
@@ -40,7 +40,6 @@ button:hover {
 }
 
 #generator-btn {
-    font-family: 'Inter', sans-serif;
     background: #F43F5E;
     color: #F3F4F6;
     padding: 0.7rem 3rem;
@@ -55,7 +54,6 @@ button:hover {
 }
 
 .copy-btn {
-    font-family: 'Inter', sans-serif;
     font-size: 12px;
     background: #6B7280;
     color: #FFFFFF;
@@ -72,7 +70,6 @@ button:hover {
 }
 
 .output-block {
-    font-family: 'Inter', sans-serif;
     font-weight: 500;
     text-align: center;
     width: 210px;
